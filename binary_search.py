@@ -43,5 +43,5 @@ def binary_search(search_list, search_item):
     return None, count_iteration
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     print(binary_search(generate_list(11200), 1))

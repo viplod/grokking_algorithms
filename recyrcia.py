@@ -37,7 +37,7 @@ def binary_search(slist, elem):
             return quess
     elif quess > elem:
         return binary_search(slist[:middle - 1], elem)
-    elif:
+    else:
         return binary_search(slist[middle + 1:], elem)
 
 
